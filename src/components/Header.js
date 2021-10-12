@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../App.css';
 import PortfolioPic from '../pictures/portfolio-icon.png'
 
@@ -7,16 +6,15 @@ function Header() {
     return (
         <nav>
             <div className='icon-container'>
-                <Link path='/' className='link'>
+                <a href='#top' target='_top' className='link'>
                     <img src={PortfolioPic} className='icon-pic'/>
                     <p>Karla Cervantes</p>
-                </Link>
-                
+                </a>
             </div>
             <div className='link-container'>
-                <Link path='/projects' className='link space-link'>Projects</Link>
-                <Link path='/resume' className='link space-link'>Resume</Link>
-                <Link path='/contact' className='link space-link'>Contact Me</Link>
+                <a href='#projects-page' target='_self' className='link space-link'>Projects</a>
+                <a href='#resume-page' target='_self' className='link space-link'>Resume</a>
+                <a href='#contact-page' target='_self' className='link space-link'>Contact Me</a>
             </div>
         </nav>
     )
