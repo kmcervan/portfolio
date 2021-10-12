@@ -21,18 +21,22 @@ function Projects() {
                     </div>
                 </div>
                 <div className='projects-container'>
-                    <a target='_blank'>
-                        <img src={Nine} className='project-img'/>
-                    </a>
+                    <div className='img-box'>
+                        <a target='_blank'>
+                            <img src={Nine} className='project-img'/>
+                        </a>
+                    </div>
                     <div className='project-text-box'>
                         <h4>Spacestagram</h4>
                         <p>Project description will go here</p>
                     </div>
                 </div>
                 <div className='projects-container'>
-                    <a target='_blank'>
-                        <img src={Ten} className='project-img'/>
-                    </a>
+                    <div className='img-box'>
+                        <a target='_blank'>
+                            <img src={Ten} className='project-img'/>
+                        </a>
+                    </div>
                     <div className='project-text-box'>
                         <h4>Spacestagram</h4>
                         <p>Project description will go here</p>
