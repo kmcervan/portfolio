@@ -1,6 +1,6 @@
-*{
+/* *{
   border: red 1px solid;
-}
+} */
 html, body {
   margin: 0;
   height:100%;
@@ -10,7 +10,7 @@ html, body {
 }
 section {
   display: block;
-  background: white;
+  background: #b2dbd5;
   height:100vh;
   width:100vw;
   padding: 60px;
@@ -22,14 +22,16 @@ section {
 }
 .App {
   text-align: center;
-  background-color: white;
+  background-color: #b2dbd5;
+  color: #2b616d;
   font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /**************************** Header ******************************/
 nav {
   border: green 2px solid;
-  background-color: black;
+  background-color: #fa8d62;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -54,7 +56,7 @@ nav {
 .link {
   height: 50px;
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   display: flex;
   align-items: center;
 }
@@ -62,7 +64,7 @@ nav {
   margin-left: 15px;
 }
 .space-link:hover {
-  background-color: cadetblue;
+  background-color: #b2dbd5;
 }
 .icon-pic {
   height: 90px;
@@ -79,9 +81,23 @@ nav {
 
 /**************************** Main Page ******************************/
 .main-container {
-  
+  display: flex;
+  align-items: center;
 }
-
+h1 {
+  font-family: 'Anton', sans-serif;
+}
+.btn {
+  border: #b2dbd5 2px solid;
+  border-radius: 5px;
+  background-color: #b2dbd5;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0px 10px;
+}
+.main-text p {
+  text-align: center;
+}
 
 
 /**************************** Projects ******************************/
@@ -117,4 +133,11 @@ nav {
   text-align: left;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
+}
+
+
+
+/**************************** Contact ******************************/
+.link-img {
+  width: 10%;
 }
