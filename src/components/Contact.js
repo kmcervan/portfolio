@@ -7,7 +7,7 @@ import Email from '../pictures/email.png';
 function Contact() {
     return (
         <section id='contact-page' className='contact-main'>
-            <h3>You can reach me at</h3>
+            <h3>Let's connect!</h3>
             <a href='https://www.linkedin.com/in/kmc4/' className='contact-link'>
                 <img className='link-img' src={Linkedin}/>
             </a>

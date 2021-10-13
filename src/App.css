@@ -13,7 +13,7 @@ section {
   background: #b2dbd5;
   height:100vh;
   width:100vw;
-  padding: 60px;
+  padding: 50px;
   /* padding-left: 120px; */
   padding-top: 100px;
   box-sizing:border-box;
@@ -59,6 +59,7 @@ nav {
   color: #ffffff;
   display: flex;
   align-items: center;
+  font-family: 'Montserrat', sans-serif;
 }
 .space-link {
   margin-left: 15px;
@@ -85,20 +86,24 @@ nav {
   align-items: center;
 }
 h1 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 4rem;
 }
 .btn {
-  border: #b2dbd5 2px solid;
+  border: #2b616d 2px solid;
   border-radius: 5px;
-  background-color: #b2dbd5;
-  color: #ffffff;
+  background-color: #2b616d;
+  color: #fa8d62;
   text-decoration: none;
   margin: 0px 10px;
 }
 .main-text p {
   text-align: center;
 }
-
+span {
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+}
 
 /**************************** Projects ******************************/
 .projects-main {

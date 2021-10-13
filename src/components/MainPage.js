@@ -15,7 +15,13 @@ function MainPage() {
                 </div>
                 <div className='main-text'> 
                     <h1>Karla Cervantes</h1>
-                    <p>Hey!<span>&#9996;&#127997;</span> I am a full stack developer. I like to design simple and efficient pages!</p>
+                    <p>Hey, I'm Karla Cervantes &#9996;&#127997;! I am a full-stack developer ready to continue developing! While I do have a preference for a front-end development position, I am open to all possibilities. I've worked with PERN stack, <span>PostgreSQL</span>, <span>Express</span>, <span>React</span>, and <span>Node</span>, but I am also very familiar with <span>Python</span>, <span>HTML</span>, and <span>CSS</span>.
+                    <br/>
+                    <br/>
+                    A bit about myself I enjoy a good game of chess, long hikes, and reading/hearing new quotes. After watching an episode of Ted Lasso, my brain got suck on "Be curious, not judgemental" -Walt Whitman.
+                    <br/>
+                    <br/>
+                    If I'm managed to pique your interest please feel free to reach out!</p>
                     <a href='#projects-page' target='_self' className='btn'>Projects</a>
                     <a href={Res} target='_blank' className='btn'>Resume</a>
                     <p>Let's Connect!</p>
