@@ -30,7 +30,7 @@ section {
 
 /**************************** Header ******************************/
 nav {
-  border: green 2px solid;
+  /* border: green 2px solid; */
   background-color: #2b616d;
   overflow: hidden;
   position: fixed;
@@ -103,6 +103,7 @@ h1 {
 span {
   font-family: 'Shadows Into Light', cursive;
   font-weight: bold;
+  /* color: #fa8d62; */
 }
 
 /**************************** Projects ******************************/

@@ -22,9 +22,9 @@ function MainPage() {
                     <br/>
                     <br/>
                     If I'm managed to pique your interest please feel free to reach out!</p>
-                    <a href='#projects-page' target='_self' className='btn'>Projects</a>
+                    {/* <a href='#projects-page' target='_self' className='btn'>Projects</a>
                     <a href={Res} target='_blank' className='btn'>Resume</a>
-                    <p>Let's Connect!</p>
+                    <p>Let's Connect!</p> */}
                     <a href='https://www.linkedin.com/in/kmc4/' className='contact-link'>
                         <img className='link-img' src={Linkedin}/>
                     </a>

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
-import PortfolioPic from '../pictures/portfolio-icon.png'
+import PortfolioPic from '../pictures/portfolio-icon.png';
+import Res from '../pictures/res.pdf';
 
 function Header() {
     return (
@@ -14,8 +15,8 @@ function Header() {
                 </div>
                 <div className='link-container'>
                     <a href='#projects-page' target='_self' className='link space-link'>Projects</a>
-                    <a href='#resume-page' target='_self' className='link space-link'>Resume</a>
-                    <a href='#contact-page' target='_self' className='link space-link'>Contact Me</a>
+                    <a href={Res} target='_blank' className='link space-link'>Resume</a>
+                    {/* <a href='#contact-page' target='_self' className='link space-link'>Contact Me</a> */}
                 </div>
             </div>
         </nav>
