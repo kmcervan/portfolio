@@ -10,7 +10,7 @@ function Header() {
                 <div className='icon-container'>
                     <a href='#top' target='_top' className='link'>
                         <img src={PortfolioPic} className='icon-pic'/>
-                        <p>Karla Cervantes</p>
+                        <h3>Karla Cervantes</h3>
                     </a>
                 </div>
                 <div className='link-container'>
