@@ -3,6 +3,7 @@ section {
   background: #b2dbd5;
   height:100vh;
   width:100%;
+  padding-top: 100px;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -140,9 +141,9 @@ h1 {
 /**************************** Resizing ******************************/
 
 @media screen and (min-width: 250px) and (max-width: 900px ) {
-  section {
-    padding-top: 80px;
-  }
+  /* section {
+    padding-top: 100px;
+  } */
   .main-container {
     flex-direction: column;
   }
@@ -180,9 +181,9 @@ h1 {
 
 
 @media screen and (min-width: 250px) and (max-width:650px) {
-  section {
+  /* section {
     padding-top: 100px;
-  }
+  } */
   h1 {
     line-height: 100%;
     margin-bottom: 6%;
