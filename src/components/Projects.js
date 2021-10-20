@@ -17,10 +17,10 @@ function Projects() {
                     </div>
                     <div className='project-text-box'>
                         <h4>Spacestagram</h4>
-                        <p>The Spacestagram allows the user to see 30 randomly selected images from NASA's Astronomy Picture of the Day API. A title, photo, date and description are provided with every card. Users are able to like and unlike images by either clicking on the image or the like button.</p>
+                        <p>The Spacestagram App allows the user to see 30 randomly selected images from NASA's Astronomy Picture of the Day API. A title, photo, date and description are provided with every card. Users are able to like and unlike images by either clicking on the image or the like button.</p>
                     </div>
                 </div>
-                <div className='projects-container'>
+                {/* <div className='projects-container'>
                     <div className='img-box'>
                         <a target='_blank'>
                             <img src={Nine} className='project-img'/>
@@ -41,7 +41,7 @@ function Projects() {
                         <h4>Spacestagram</h4>
                         <p>Project description will go here</p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     )
