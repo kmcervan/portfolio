@@ -10,13 +10,12 @@ function Header() {
                 <div className='icon-container'>
                     <a href='#top' target='_top' className='link'>
                         <img src={PortfolioPic} className='icon-pic'/>
-                        <h3>Karla Cervantes</h3>
+                        <h3><span className='header-h3'>Karla Cervantes</span></h3>
                     </a>
                 </div>
                 <div className='link-container'>
                     <a href='#projects-page' target='_self' className='link space-link'>Projects</a>
                     <a href={Res} target='_blank' className='link space-link'>Resume</a>
-                    {/* <a href='#contact-page' target='_self' className='link space-link'>Contact Me</a> */}
                 </div>
             </div>
         </nav>
